@@ -9,12 +9,16 @@ if(language=="english" or "hindi")and(pin==1234):
     
     elif(ch==2):
             print("enter your credit")
+            amt=int(input("enter your amt"))
+            if (amt>=500 and amt<=40000):
+                print("please take your amt from check box")
+        
     elif(ch==3):
         print("enter your widraw")
         amount=int(input("enter your amount"))
         if (amount>=500 and amount<=40000):
             print("please take your amount form check box")
-    
+        
         else:
             print("amount is min 500 and max 40000")
     else:
